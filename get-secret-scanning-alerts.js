@@ -6,7 +6,8 @@ const delay = require('delay');
 const {Octokit} = require('@octokit/rest')
 const octokit = new Octokit({
   auth: process.env.GH_AUTH_TOKEN,
-  previews: ['dorian-preview']
+  previews: ['dorian-preview'],
+  baseUrl: 'octodemo.com/api/something/something'
 })
 
 var buffer = ""
