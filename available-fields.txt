@@ -1,0 +1,3 @@
+number, created_at, url, html_url, state, resolution, resolved_at, resolved_by__login, resolved_by__id, resolved_by__node_id, resolved_by__avatar_url, resolved_by__gravatar_id, resolved_by__url, resolved_by__html_url, resolved_by__followers_url, resolved_by__following_url, resolved_by__gists_url, resolved_by__starred_url, resolved_by__subscriptions_url, resolved_by__organizations_url, resolved_by__repos_url, resolved_by__events_url, resolved_by__received_events_url, resolved_by__type, resolved_by__site_admin, secret_type, secret, resolved_by
+
+https://docs.github.com/en/enterprise-server@3.1/rest/reference/secret-scanning
