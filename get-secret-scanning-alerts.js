@@ -7,7 +7,7 @@ const {Octokit} = require('@octokit/rest')
 const octokit = new Octokit({
   auth: process.env.GH_AUTH_TOKEN,
   previews: ['dorian-preview'],
-  baseUrl: process.env.BASE_URL // example: BASE_URL=https://{hostname}/api/v3
+  baseUrl: process.env.BASE_URL + '/api/v3' // example: BASE_URL=https://{hostname}
 })
 
 var buffer = ""
